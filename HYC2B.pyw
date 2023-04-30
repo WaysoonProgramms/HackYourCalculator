@@ -9,7 +9,7 @@ customtkinter.set_default_color_theme("dark-blue")  # Themes: "blue" (standard),
 
 app = customtkinter.CTk()
 app.geometry("430x330")
-app.title("HackYourClaculator 2.0 (BETA)")
+app.title("HackYourClaculator 1.0")
 app.iconbitmap('icon.ico')
 
 def button_callback():
@@ -75,7 +75,7 @@ entry_1.pack(pady=0, padx=10)
 button_1 = customtkinter.CTkButton(master=frame_1, text="Шифровать...", command=button_callback)
 button_1.pack(pady=10, padx=10)
 
-label_1 = customtkinter.CTkLabel(master=frame_1, text='2.0 BETA | by Waysoon_', justify=customtkinter.LEFT)
+label_1 = customtkinter.CTkLabel(master=frame_1, text='1.0 | by Waysoon', justify=customtkinter.LEFT)
 label_1.pack(pady=0, padx=0)
 
 button_2 = customtkinter.CTkButton(master=frame_1, text="?", command=button_callback_2, width=20, height=20)
